@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class TestScript : MonoBehaviour
+
 {
-    // Start is called before the first frame update
+    public string myStartMessage;
+// Start is called before the first frame update
     void Start()
     {
-        
+      Debug.Log(myStartMessage);  
     }
 
     // Update is called once per frame
