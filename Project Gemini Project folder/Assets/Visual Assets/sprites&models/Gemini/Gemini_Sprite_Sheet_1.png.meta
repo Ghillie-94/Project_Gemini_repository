@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 2355e19f2306c5642880594c9f269e23
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4837569255979897455
+    second: Gemini_Sprite_Sheet_1_0
+  - first:
+      213: -5811849814230044816
+    second: Gemini_Sprite_Base
+  - first:
+      213: -8481772160471256779
+    second: Gemini_Sprite_Turn_Up_1
+  - first:
+      213: -16880626192817558
+    second: Gemini_Sprite_Turn_Up_2
+  - first:
+      213: -4560097677102196672
+    second: Gemini_Sprite_Turn_Up_3
+  - first:
+      213: -3102594933765948044
+    second: Gemini_Sprite_Turn_Up_4
+  - first:
+      213: -2948180688347093139
+    second: Gemini_Sprite_Turn_Down_1
+  - first:
+      213: -4000769254690975982
+    second: Gemini_Sprite_Turn_Down_2
+  - first:
+      213: -8734709110201717682
+    second: Gemini_Sprite_Turn_Down_3
+  - first:
+      213: 5383430364544486018
+    second: Gemini_Sprite_Turn_Down_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,9 +70,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -85,7 +115,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Gemini_Sprite_Sheet_1_0
+      rect:
+        serializedVersion: 2
+        x: 10456
+        y: 4322
+        width: 364
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19da7f864608ddcb0800000000000000
+      internalID: -4837569255979897455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Sprite_Base
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3018
+        width: 2460
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fe5eee269285fa0800000000000000
+      internalID: -5811849814230044816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Sprite_Turn_Up_1
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 2796
+        width: 2462
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531305d8821ba4a80800000000000000
+      internalID: -8481772160471256779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Sprite_Turn_Up_2
+      rect:
+        serializedVersion: 2
+        x: 6789
+        y: 2590
+        width: 2462
+        height: 1068
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62e030f82704cff0800000000000000
+      internalID: -16880626192817558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Sprite_Turn_Up_3
+      rect:
+        serializedVersion: 2
+        x: 9930
+        y: 2400
+        width: 2462
+        height: 1388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0485d37b25747b0c0800000000000000
+      internalID: -4560097677102196672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Sprite_Turn_Up_4
+      rect:
+        serializedVersion: 2
+        x: 13071
+        y: 2316
+        width: 2462
+        height: 1693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d34f2985e51f4d0800000000000000
+      internalID: -3102594933765948044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Sprite_Turn_Down_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 469
+        width: 2463
+        height: 862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67a769b845f517d0800000000000000
+      internalID: -2948180688347093139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Sprite_Turn_Down_2
+      rect:
+        serializedVersion: 2
+        x: 3405
+        y: 248
+        width: 2461
+        height: 1083
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f07d15f896a78c0800000000000000
+      internalID: -4000769254690975982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Sprite_Turn_Down_3
+      rect:
+        serializedVersion: 2
+        x: 6789
+        y: 50
+        width: 2462
+        height: 1373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cee0eb75418c680800000000000000
+      internalID: -8734709110201717682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Sprite_Turn_Down_4
+      rect:
+        serializedVersion: 2
+        x: 10452
+        y: 0
+        width: 2462
+        height: 1636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ac9b7d469c5ba40800000000000000
+      internalID: 5383430364544486018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
