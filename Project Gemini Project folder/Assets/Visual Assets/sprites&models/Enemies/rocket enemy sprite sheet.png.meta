@@ -1,7 +1,115 @@
 fileFormatVersion: 2
 guid: ccfd597479e35aa4e8fece171cdca701
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8227558972701078470
+    second: rocket enemy sprite sheet_0
+  - first:
+      213: -5620194800842472964
+    second: rocket enemy sprite sheet_1
+  - first:
+      213: -8340226464594905731
+    second: rocket enemy sprite sheet_2
+  - first:
+      213: -6068333503534829600
+    second: rocket enemy sprite sheet_3
+  - first:
+      213: 7181323768904316020
+    second: rocket enemy sprite sheet_4
+  - first:
+      213: -3592306846917176884
+    second: rocket enemy sprite sheet_5
+  - first:
+      213: -735105142707500583
+    second: rocket enemy sprite sheet_6
+  - first:
+      213: 5841377703498859350
+    second: rocket enemy sprite sheet_7
+  - first:
+      213: 894422139204825536
+    second: rocket enemy sprite sheet_8
+  - first:
+      213: -1510432025593076111
+    second: rocket enemy sprite sheet_9
+  - first:
+      213: 6192182787922629643
+    second: rocket enemy sprite sheet_10
+  - first:
+      213: -873717674918297864
+    second: rocket enemy sprite sheet_11
+  - first:
+      213: -2944688401417669083
+    second: rocket enemy sprite sheet_12
+  - first:
+      213: -4820440991938340789
+    second: rocket enemy sprite sheet_13
+  - first:
+      213: -4325527017770613567
+    second: rocket enemy sprite sheet_14
+  - first:
+      213: -1737047632480295973
+    second: rocket enemy sprite sheet_15
+  - first:
+      213: 9018294394787003930
+    second: rocket enemy sprite sheet_16
+  - first:
+      213: -405337543739716830
+    second: rocket enemy sprite sheet_17
+  - first:
+      213: 1391111858696635159
+    second: rocket enemy sprite sheet_18
+  - first:
+      213: 6674761847662941283
+    second: rocket enemy sprite sheet_19
+  - first:
+      213: -6885840068578649182
+    second: rocket enemy sprite sheet_20
+  - first:
+      213: -1567793360082777662
+    second: rocket enemy sprite sheet_21
+  - first:
+      213: 2959895276197456970
+    second: rocket enemy sprite sheet_22
+  - first:
+      213: 2855942399063864733
+    second: rocket enemy sprite sheet_23
+  - first:
+      213: 4098008718287779675
+    second: rocket enemy sprite sheet_24
+  - first:
+      213: 7425875122460163839
+    second: rocket enemy sprite sheet_25
+  - first:
+      213: -7807756447236290424
+    second: rocket enemy sprite sheet_26
+  - first:
+      213: -9062560230279450535
+    second: rocket enemy sprite sheet_27
+  - first:
+      213: -2221538687739349127
+    second: rocket enemy sprite sheet_28
+  - first:
+      213: 1095940710820207515
+    second: rocket enemy sprite sheet_29
+  - first:
+      213: -6134083692954315718
+    second: rocket enemy sprite sheet_30
+  - first:
+      213: -2509849805526340694
+    second: rocket enemy sprite sheet_31
+  - first:
+      213: 5098061264168935023
+    second: rocket enemy sprite sheet_32
+  - first:
+      213: 3190323915455183312
+    second: rocket enemy sprite sheet_33
+  - first:
+      213: -9083610532388496874
+    second: rocket enemy sprite sheet_34
+  - first:
+      213: 5185791392420619599
+    second: rocket enemy sprite sheet_35
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +148,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +179,777 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1205
+        width: 268
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3fc605b492e2270800000000000000
+      internalID: 8227558972701078470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1205
+        width: 269
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1894f0b9e0102b0800000000000000
+      internalID: -5620194800842472964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1205
+        width: 243
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7532870830914c80800000000000000
+      internalID: -8340226464594905731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1207
+        width: 211
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef643774d2f8cba0800000000000000
+      internalID: -6068333503534829600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 1205
+        width: 203
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4747c966bef29a360800000000000000
+      internalID: 7181323768904316020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 1205
+        width: 178
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc15c41a4ff852ec0800000000000000
+      internalID: -3592306846917176884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1205
+        width: 138
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d94b5874c16cc5f0800000000000000
+      internalID: -735105142707500583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 1205
+        width: 91
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653cfe7821eb01150800000000000000
+      internalID: 5841377703498859350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 1205
+        width: 82
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c17c8e5230a96c00800000000000000
+      internalID: 894422139204825536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 1205
+        width: 85
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176a629431ed90be0800000000000000
+      internalID: -1510432025593076111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2576
+        y: 1205
+        width: 78
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b049a62207d0fe550800000000000000
+      internalID: 6192182787922629643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2729
+        y: 1205
+        width: 161
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8feb380676eefd3f0800000000000000
+      internalID: -873717674918297864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 597
+        width: 158
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5267943208d5227d0800000000000000
+      internalID: -2944688401417669083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 597
+        width: 195
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4898c6257a5a1db0800000000000000
+      internalID: -4820440991938340789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 594
+        width: 218
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c48d6f4814a8f3c0800000000000000
+      internalID: -4325527017770613567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 594
+        width: 244
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3241ca164c4e7e0800000000000000
+      internalID: -1737047632480295973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 597
+        width: 264
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1efc2998fa672d70800000000000000
+      internalID: 9018294394787003930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 597
+        width: 269
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bc34bc6a3ff5af0800000000000000
+      internalID: -405337543739716830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 597
+        width: 268
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71342747dd83e4310800000000000000
+      internalID: 1391111858696635159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 597
+        width: 259
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364974a398481ac50800000000000000
+      internalID: 6674761847662941283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 597
+        width: 238
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abd73cb0f49070a0800000000000000
+      internalID: -6885840068578649182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 597
+        width: 217
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9cc0bde341e3ae0800000000000000
+      internalID: -1567793360082777662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 598
+        width: 188
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c2b1e4219a31920800000000000000
+      internalID: 2959895276197456970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2905
+        y: 597
+        width: 156
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95bd230b7852a720800000000000000
+      internalID: 2855942399063864733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 144
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b573ff3973d0fd830800000000000000
+      internalID: 4098008718287779675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 4
+        width: 82
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffef5a474120e0760800000000000000
+      internalID: 7425875122460163839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 0
+        width: 133
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88807b5e0e645a390800000000000000
+      internalID: -7807756447236290424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 0
+        width: 81
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9507c9e6c715b3280800000000000000
+      internalID: -9062560230279450535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_28
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 0
+        width: 129
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977328e65528b21e0800000000000000
+      internalID: -2221538687739349127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 4
+        width: 126
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bd35b1540953f00800000000000000
+      internalID: 1095940710820207515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 0
+        width: 159
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3411fa816b5fdaa0800000000000000
+      internalID: -6134083692954315718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 194
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabe40e46e83b2dd0800000000000000
+      internalID: -2509849805526340694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 0
+        width: 251
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ed7f585b3ffb640800000000000000
+      internalID: 5098061264168935023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 0
+        width: 250
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9b323b2be464c20800000000000000
+      internalID: 3190323915455183312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_34
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 0
+        width: 259
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a9cfa095880f180800000000000000
+      internalID: -9083610532388496874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket enemy sprite sheet_35
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 0
+        width: 449
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f456280cbc1a7f740800000000000000
+      internalID: 5185791392420619599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

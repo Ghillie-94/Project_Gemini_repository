@@ -1,7 +1,34 @@
 fileFormatVersion: 2
 guid: 11b5962dae707ad4988df2ed9284e455
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2821417114540591
+    second: Efighter_sprite_sheet_0
+  - first:
+      213: -2072726377499251204
+    second: Efighter_sprite_sheet_1
+  - first:
+      213: 3759039864102170842
+    second: Efighter_sprite_sheet_2
+  - first:
+      213: -3457884769835722857
+    second: Efighter_sprite_sheet_3
+  - first:
+      213: 3366655795419127688
+    second: Efighter_sprite_sheet_4
+  - first:
+      213: 8501412603125957869
+    second: Efighter_sprite_sheet_5
+  - first:
+      213: 4203866505595686016
+    second: Efighter_sprite_sheet_6
+  - first:
+      213: 6439993953046778885
+    second: Efighter_sprite_sheet_7
+  - first:
+      213: 7098250062527032962
+    second: Efighter_sprite_sheet_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +67,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +98,210 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Efighter_sprite_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 3028
+        width: 2278
+        height: 575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a10ec50160a0000800000000000000
+      internalID: 2821417114540591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efighter_sprite_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 3113
+        y: 2993
+        width: 2285
+        height: 617
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd239867523c33e0800000000000000
+      internalID: -2072726377499251204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efighter_sprite_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 5988
+        y: 2993
+        width: 2292
+        height: 617
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0b75417daca2430800000000000000
+      internalID: 3759039864102170842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efighter_sprite_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 9005
+        y: 2886
+        width: 2285
+        height: 795
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79755bb5f102300d0800000000000000
+      internalID: -3457884769835722857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efighter_sprite_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 12057
+        y: 2773
+        width: 2286
+        height: 1001
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f97fecb93c8be20800000000000000
+      internalID: 3366655795419127688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efighter_sprite_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 707
+        width: 2279
+        height: 582
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de40a5a58b51bf570800000000000000
+      internalID: 8501412603125957869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efighter_sprite_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 678
+        width: 2285
+        height: 611
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c81355052275a30800000000000000
+      internalID: 4203866505595686016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efighter_sprite_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 5988
+        y: 572
+        width: 2285
+        height: 795
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504540731647f5950800000000000000
+      internalID: 6439993953046778885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efighter_sprite_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 8920
+        y: 458
+        width: 2285
+        height: 1001
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e61dfd2dc028260800000000000000
+      internalID: 7098250062527032962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
