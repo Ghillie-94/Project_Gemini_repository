@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     //public variables
     public float movementForceTurn = 7f;
-    public float movementForce = 10f;
+    public float movementForce = 10f; //not in use for now 11/05/21 09:40
 
     // Start is called before the first frame update
     void Start()
@@ -17,15 +17,16 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {   
-
+        Rigidbody2D ourRigidbody = GetComponent<Rigidbody2D>();
+        ourRigidbody.velocity = new Vector2(Input.GetAxis("Horizontal") *movementForceTurn, Input.GetAxis("Vertical") *movementForceTurn);
         //condition: when the player presses D key...
-        if (Input.GetKey(KeyCode.D))
+        /*if (Input.GetKey(KeyCode.D))
         {
             //Action: apply a force (move the player)    
             Rigidbody2D ourRigidbody = GetComponent<Rigidbody2D>();
 
             //Add a force to the rigidbody to move our player
-            ourRigidbody.AddForce(Vector2.right * movementForce);
+            ourRigidbody.AddForce(Vector2.right * movementForceTurn);
 
         }
 
@@ -58,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
             //Add a force to the rigidbody to move our player
             ourRigidbody.AddForce(Vector2.down * movementForceTurn);
 
-        }
+        }*/
 
     }
 }

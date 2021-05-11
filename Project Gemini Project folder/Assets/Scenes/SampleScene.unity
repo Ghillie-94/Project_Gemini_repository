@@ -272,7 +272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementForceTurn: 7
-  movementForce: 20
+  movementForce: 7
 --- !u!212 &429819765
 SpriteRenderer:
   m_ObjectHideFlags: 0
