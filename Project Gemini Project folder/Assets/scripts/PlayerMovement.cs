@@ -19,6 +19,16 @@ public class PlayerMovement : MonoBehaviour
     {   
         Rigidbody2D ourRigidbody = GetComponent<Rigidbody2D>();
         ourRigidbody.velocity = new Vector2(Input.GetAxis("Horizontal") *movementForceTurn, Input.GetAxis("Vertical") *movementForceTurn);
+
+        //use rigidbody to find current vertical speed
+        float currentSpeedV = ourRigidbody.velocity.y;
+
+        // get animator component that will be used for setting animation
+        Animator ourAnimator = GetComponent<Animator>();
+
+        // tell animator what the speed is
+        ourAnimator.SetFloat("speedV", currentSpeedV);
+
         //condition: when the player presses D key...
         /*if (Input.GetKey(KeyCode.D))
         {
