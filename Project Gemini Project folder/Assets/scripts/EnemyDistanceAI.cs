@@ -37,5 +37,11 @@ public class EnemyDistanceAI : MonoBehaviour
             patrolBehaviour.enabled = false;
             chaseBehaviour.enabled = true;
         }
+        else
+        {
+            //enable patrol and disable chasing
+            patrolBehaviour.enabled = true;
+            chaseBehaviour.enabled = false;
+        }
     }
 }
