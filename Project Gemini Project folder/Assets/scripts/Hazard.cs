@@ -5,6 +5,10 @@ using UnityEngine;
 public class Hazard : MonoBehaviour
 {
 
+    //this will be the amount of damage this hazard does
+    // public variable = shown in unity editor and accessible to other scripts
+    public int hazardDamage;
+
     // built in unity function for handling collisions
     // this function will be called when another object bumps 
     // into the one that this script is attatched to
@@ -23,8 +27,8 @@ public class Hazard : MonoBehaviour
             // this means there WAS a playerhealth script attatched to the object we bumped into
             // which means this object is indeed the player
 
-            //therfore perform our action
-            player.Kill();
+            //therfore perform on collision action (damage the player)
+            player.ChangeHealth(-hazardDamage);
 
         }
     }
