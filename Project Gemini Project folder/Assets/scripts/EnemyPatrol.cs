@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyFigtrAI : MonoBehaviour
+public class EnemyPatrol : MonoBehaviour
 {
     
     // public variables
@@ -27,6 +27,28 @@ public class EnemyFigtrAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // How far are we from our target?
+        float distance = (patrolPoints[currentPoint] - (Vector2)transform.position).magnitude;
+
+        // if we are closer to our target than our mininum distance...
+        if (distance <= stopDistance)
+        {
+            //then update to the next target
+            currentPoint = currentPoint + 1;
+
+            // if we've gone past the end of our list....
+            // if our current point index is equal or bigger than
+            // the length pf our list
+            if (currentPoint >= patrolPoints.Length)
+            {
+                // then loop back to the start 
+                //by setting the current index to 0
+                currentPoint = 0;
+            }
+        }
+
+
+
         // Move in the direction of our target
 
         //get the direction we should move in
