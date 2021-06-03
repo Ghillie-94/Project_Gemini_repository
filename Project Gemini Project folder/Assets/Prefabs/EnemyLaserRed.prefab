@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3603974411686802286}
   - component: {fileID: 3603974411686802281}
   - component: {fileID: 3603974411686802280}
+  - component: {fileID: -1408717609084547441}
   m_Layer: 0
   m_Name: EnemyLaserRed
   m_TagString: Untagged
@@ -95,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13e4db132341f324b9c2d42599f9294a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hazardDamage: 0
+  hazardDamage: 1
 --- !u!58 &3603974411686802280
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -112,3 +113,24 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!50 &-1408717609084547441
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3603974411686802283}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.25
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
