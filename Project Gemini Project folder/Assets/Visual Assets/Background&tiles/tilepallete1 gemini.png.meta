@@ -19,10 +19,28 @@ TextureImporter:
     second: tilepallete1 structure
   - first:
       213: -2257484761642169635
-    second: tilepallete1 gemini_5
+    second: tilepallete1 structure
   - first:
       213: 8707585863161409255
     second: tilepallete1 gemini_6
+  - first:
+      213: -2766700321632926113
+    second: tilepallete1 machinery
+  - first:
+      213: 4621838134697513853
+    second: tilepallete1 rusty_structure
+  - first:
+      213: 6350112193165855836
+    second: tilepallete1 cut_tile
+  - first:
+      213: 8317155312157898648
+    second: tilepallete1 construction
+  - first:
+      213: 859988696393914794
+    second: tilepallete1 gemini_4
+  - first:
+      213: 6350112193165855836
+    second: tilepallete1 gemini_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -108,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tilepallete1 machinery_1
+      name: tilepallete1 machinery
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1081
-        width: 699
-        height: 790
+        x: 305
+        y: 551
+        width: 409
+        height: 405
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,13 +150,13 @@ TextureImporter:
       name: tilepallete1 rusty_structure
       rect:
         serializedVersion: 2
-        x: 1620
-        y: 1161
-        width: 711
-        height: 744
+        x: 1015
+        y: 597
+        width: 412
+        height: 418
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 5, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -150,34 +168,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilepallete1 cut_tile
+      name: tilepallete1 construction
       rect:
         serializedVersion: 2
-        x: 46
-        y: 0
-        width: 705
-        height: 734
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a9aedb1338d0b2d0800000000000000
-      internalID: -3264872015821100635
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tilepallete1 contruction
-      rect:
-        serializedVersion: 2
-        x: 1185
-        y: 70
-        width: 732
-        height: 732
+        x: 590
+        y: 9
+        width: 419
+        height: 411
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,13 +189,34 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: tilepallete1 cut_tile
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 414
+        height: 411
+      alignment: 9
+      pivot: {x: 0.5028385, y: 0.49214864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c07853561202850800000000000000
+      internalID: 6350112193165855836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: tilepallete1 structure
       rect:
         serializedVersion: 2
-        x: 2254
-        y: 17
-        width: 708
-        height: 730
+        x: 1311
+        y: 13
+        width: 418
+        height: 418
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa91967b92b4feb00800000000000000
-      internalID: 859988696393914794
+      spriteID: dda0678e19dcba0e0800000000000000
+      internalID: -2257484761642169635
       vertices: []
       indices: 
       edges: []
