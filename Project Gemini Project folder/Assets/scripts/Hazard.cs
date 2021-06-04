@@ -29,6 +29,8 @@ public class Hazard : MonoBehaviour
 
             //therfore perform on collision action (damage the player)
             player.ChangeHealth(-hazardDamage);
+            //destroy itself
+            Destroy(gameObject);
 
         }
     }
