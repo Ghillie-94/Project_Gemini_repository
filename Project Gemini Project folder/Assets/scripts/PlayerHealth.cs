@@ -24,6 +24,8 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = startingHealth;
     }
 
+   
+    
     //this function is not built into unity
     // it will only called manually by own code
     // it must be marked "public" so our other scripts can access It
@@ -43,6 +45,7 @@ public class PlayerHealth : MonoBehaviour
         //If our health has dropped to 0, that means our player should die.
         if (currentHealth == 0)
         {
+            
             //we call the kill function to kill the player
             Kill();
         }
@@ -54,10 +57,16 @@ public class PlayerHealth : MonoBehaviour
     // It must be marked public so other scripts can access it.
     public void Kill()
     {
+        //get animator component
+        Animator ourAnimator = GetComponent<Animator>();
+        //play explosion animation
+        ourAnimator.SetTrigger("IsDestroyed");
         //This will destroy the game object that this script is attatched to.
         Destroy(gameObject);
     }
 
+     
+    
     // This function will let other scripts ask this one what the current health is
     // the function RETURNS an integer, meaning it gives a number back to the code that called it
     public int GetHealth()
