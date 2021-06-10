@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -8,10 +9,13 @@ public class PlayerHealth : MonoBehaviour
     //This will be the starting health for player
     //public variable = shown in Unity editor and accessible from other scripts
     public int startingHealth;
+    public string gameOverScene;
+    public GameObject projectilePrefab;
 
     //this will be the player's current health
     //private variable: not shown in unity or accessible from other scripts
     private int currentHealth;
+    private float sceneTimer = 1.2f;
 
     //built in unity function that is called when the object this script is attached to is created
     //usually this is when the game starts unless the object is spawned in later
@@ -57,12 +61,26 @@ public class PlayerHealth : MonoBehaviour
     // It must be marked public so other scripts can access it.
     public void Kill()
     {
-        //get animator component
-        Animator ourAnimator = GetComponent<Animator>();
-        //play explosion animation
-        ourAnimator.SetTrigger("IsDestroyed");
         //This will destroy the game object that this script is attatched to.
         Destroy(gameObject);
+
+        // Explosion animation: spawn a prefab of explosion
+        //clone the projectile
+        //declare a variable to hold the cloned object
+        GameObject clonedProjectile;
+        // Use Instantiate to clone the projectile and keep the result in our variable
+        clonedProjectile = Instantiate(projectilePrefab);
+
+        //position the projectile on the player... tranform is the location of the script (the player object)
+        clonedProjectile.transform.position = transform.position; //optional: add an offset (use a public variable)
+
+        //Load the gameover scene 
+        sceneTimer -= Time.deltaTime;
+        if (sceneTimer >= 0)
+        {
+            SceneManager.LoadScene(gameOverScene);
+        }
+        
     }
 
      

@@ -19,6 +19,8 @@ public class TileHazard : MonoBehaviour
         // get the player health script attatched to that object(if there is one)
         PlayerHealth player = objectWeCollidedWith.GetComponent<PlayerHealth>();
 
+        
+
         // check if we actually found a player health script on the object we collided with
         // This if statement is true if the player variable is NOT null (aka empty)
         if (player != null)
@@ -31,5 +33,7 @@ public class TileHazard : MonoBehaviour
            
 
         }
+
+       
     }
 }

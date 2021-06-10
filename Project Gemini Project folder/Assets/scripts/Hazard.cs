@@ -33,6 +33,10 @@ public class Hazard : MonoBehaviour
             Destroy(gameObject);
 
         }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
     
     
