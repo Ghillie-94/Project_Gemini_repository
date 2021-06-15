@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class CameraScrollRate : MonoBehaviour
 {
-    public float scrollRate;
+    public float cameraScrollRate;
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(scrollRate*Time.deltaTime,0,0);
+        transform.Translate(cameraScrollRate*Time.deltaTime,0,0);
     }
 }

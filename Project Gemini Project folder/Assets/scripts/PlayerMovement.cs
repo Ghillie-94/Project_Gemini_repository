@@ -6,7 +6,6 @@ public class PlayerMovement : MonoBehaviour
 {
     //public variables
     public float movementForceTurn = 7f;
-    public float movementForce = 10f; //not in use for now 11/05/21 09:40
 
     // Start is called before the first frame update
     void Start()
@@ -20,8 +19,9 @@ public class PlayerMovement : MonoBehaviour
         Rigidbody2D ourRigidbody = GetComponent<Rigidbody2D>();
         ourRigidbody.velocity = new Vector2(Input.GetAxis("Horizontal") *movementForceTurn, Input.GetAxis("Vertical") *movementForceTurn);
 
-        //use rigidbody to find current vertical speed
+        //use rigidbody to find current vertical & horizontal speed
         float currentSpeedV = ourRigidbody.velocity.y;
+        float currentSpeedH = ourRigidbody.velocity.x;
 
         // get animator component that will be used for setting animation
         Animator ourAnimator = GetComponent<Animator>();
@@ -29,6 +29,9 @@ public class PlayerMovement : MonoBehaviour
         // tell animator what the speed is
         ourAnimator.SetFloat("speedV", currentSpeedV);
 
+        
+
+       
         //condition: when the player presses D key...
         /*if (Input.GetKey(KeyCode.D))
         {

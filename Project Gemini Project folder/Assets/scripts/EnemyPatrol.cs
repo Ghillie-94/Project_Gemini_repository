@@ -9,7 +9,7 @@ public class EnemyPatrol : MonoBehaviour
     public float forceStrength; //how fast we move
     public Vector2[] patrolPoints; //patrol points we will move to
     public float stopDistance; // how close we get before moving to next patrol point
-
+   
     // private variables 
     private Rigidbody2D ourRigidbody; // the rigidbody on this object used to move to
     private int currentPoint = 0; // Index of the current point we are moving toward
@@ -57,6 +57,6 @@ public class EnemyPatrol : MonoBehaviour
         Vector2 direction = (patrolPoints[currentPoint] - (Vector2)transform.position).normalized;
 
         // move in the correct direction with the set force strength
-        ourRigidbody.AddForce(direction * forceStrength);
+        ourRigidbody.AddForce(direction * forceStrength); 
     }
 }
