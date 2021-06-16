@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 189cd2bc2ee47bd439a4a4a1e67dbcbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goalTime: 5
+  goalTime: 3
 --- !u!82 &-7422972813185972826
 AudioSource:
   m_ObjectHideFlags: 0
