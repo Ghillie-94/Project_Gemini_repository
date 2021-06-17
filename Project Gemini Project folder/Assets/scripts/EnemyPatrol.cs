@@ -58,5 +58,6 @@ public class EnemyPatrol : MonoBehaviour
 
         // move in the correct direction with the set force strength
         ourRigidbody.AddForce(direction * forceStrength); 
+        
     }
 }

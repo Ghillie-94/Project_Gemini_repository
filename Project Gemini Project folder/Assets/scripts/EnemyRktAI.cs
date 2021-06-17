@@ -8,7 +8,7 @@ public class EnemyRktAI : MonoBehaviour
     //exposed for editing in the unity editor
     public float forceStrength; //how hard the script pushes the
                                 //enemy aka how fast the enemy moves
-    public Vector2 direction; // what direction the enemy should move in
+    //public Vector2 direction; // what direction the enemy should move in
 
     // Private variables
     // not visible in editor 
@@ -26,13 +26,13 @@ public class EnemyRktAI : MonoBehaviour
         //normalise our direction
         //normalise changes it to be length 1, so we can multiply
         // it by our speed/force later
-        direction = direction.normalized;
+        //direction = direction.normalized;
     }
 
     // Update is called once per frame
     void Update()
     {
-        // move in the correct direction with the set force strength
-        ourRigidbody.AddForce(direction * forceStrength);
+        // move in the y axis direction using forceStrength as a multiplier
+        transform.Translate(0,forceStrength*Time.deltaTime,0);
     }
 }
